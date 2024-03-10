@@ -31,6 +31,7 @@ Note that you must keep it running to perform semantic search.
 # Backend
 
 For backend, I use django. Assume that we receive the search text from frontend, and here are steps to do:
+
     - Use QdrantClient to perform search where the query vector is encoded with SentenceTransformer.
     - Return results with several important fields (authors, description, thumbnail) together with their indices
 
