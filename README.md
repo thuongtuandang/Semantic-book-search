@@ -22,7 +22,7 @@ We will use qdrant to create a vector database for books based on their descript
 
 Then you can start docker and run qdrant in terminal with the command: 
 
-    - docker run -p 6333:6333 qdrant/qdrant
+    docker run -p 6333:6333 qdrant/qdrant
 
 After that, you can take a look at you vector database at this link
 http://localhost:6333/dashboard#/collections/books
