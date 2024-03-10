@@ -37,4 +37,4 @@ For backend, I use django. Assume that we receive the search text from frontend,
 
 # Frontend
 
-For frontend, I use React. We use POST method with header is 'Content-Type': 'application/json'. After that, we can use map method with key = index to separate the results from backend.
+For frontend, I use React. We use POST method with header 'Content-Type': 'application/json'. After that, we can use map method with key = index to separate the results from backend.
